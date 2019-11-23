@@ -1,5 +1,5 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "_artifactsLocation": {
@@ -379,7 +379,7 @@
                         "value": "https://iaasv2tempstoreuksouth.blob.core.windows.net/vmextensionstemporary-1003200084767b2d-20191122160647677/ProPackScriptMS.ps1?sv=2017-04-17&sr=c&sig=0p2Cns9%2FVE4RcS1OJ3px8OryvdgppHT5HJmsZwel5xY%3D&se=2019-11-23T16%3A06%3A47Z&sp=rw"
                     }
                 }
-            },
+            }
            
         },
         {
