@@ -370,7 +370,7 @@
                 },
                 "parameters": {
                     "vmName": {
-                        "value": "dfsdf"
+                        "value": "[concat(variables('rdshPrefix'),copyIndex('rdshVmNamesCopy'))]"
                     },
                     "location": {
                         "value": "eastus"
@@ -380,9 +380,7 @@
                     }
                 }
             },
-            "dependsOn": [
-                "[concat('Microsoft.Compute/virtualMachines/', parameters('virtualMachineName'))]"
-            ]
+           
         },
         {
             "apiVersion": "2018-10-01",
