@@ -146,16 +146,6 @@
                 "description": "The name of the virtual network the VMs will be connected to."
             }
         },
-        "newOrExistingVnet": {
-            "type": "string",
-            "defaultValue": "existing",
-            "allowedValues": [
-                "existing"
-            ],
-            "metadata": {
-                "description": "Only existing vnets are allowed. This parameter ensures validation for Azure Marketplace offering."
-            }
-        },
         "existingSubnetName": {
             "type": "string",
             "metadata": {
@@ -193,16 +183,6 @@
             "metadata": {
                 "description": "The name of the hostpool to be created in the RDS Tenant."
             }
-        },
-        "serviceMetadataLocation": {
-            "type": "string",
-            "metadata": {
-                "description": "Windows Virtual Desktop stores information that is global in nature. Select the location you would like the service metadata to be stored. See https://aka.ms/wvdgeo for more information."
-            },
-            "allowedValues": [
-                "United-States"
-            ],
-            "defaultValue": "United-States"
         },
         "enablePersistentDesktop": {
             "type": "bool",
